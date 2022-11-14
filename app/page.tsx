@@ -56,13 +56,13 @@ export default function Home() {
     <div className="flex min-h-screen flex-col items-center justify-center py-2">
       <main className="flex w-full flex-1 flex-col items-center justify-center px-20 text-center">
         <h1 className="text-6xl font-bold">
-          MNIST Inference on {' '}
-          <a className="text-blue-600" href="https://nextjs.org">
+          CIFAR Inference on {' '}
+          <a className="text-red-600" href="https://nextjs.org">
             Serverless
           </a>
         </h1>
         <div className="mt-10 text-lg">
-          Select a PNG Image from <a href="https://github.com/pytorch/serve/tree/master/examples/image_classifier/mnist/test_data" target="_blank" className='text-blue-600'>Example</a>
+          Select a PNG Image from <a href="https://github.com/aiplaybookin/aws-deploy-cifar/tree/main/images" target="_blank" className='text-red-600'>Example</a>
         </div>
         <div className='mt-10 flex flex-row space-x-5 text-xl'>
           <div>
